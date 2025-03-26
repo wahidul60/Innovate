@@ -7,10 +7,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'Sans':['Open Sans']
+        'Sans':['Open Sans'],
+        'Paprika':["Paprika"],
+
       },
       colors:{
         'primary':'#EFF4FA',
+        'secondary':'#1BBF00',
+        'thirdly':'#141135',
       },
     },
   },
