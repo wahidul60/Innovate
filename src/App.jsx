@@ -5,7 +5,7 @@ import Banner from './layout/Banner'
 const App = () => {
   return (
     <div>
-      <Navbar className='absolute w-full'/>
+      <Navbar/>
       <Banner/>
     </div>
   )

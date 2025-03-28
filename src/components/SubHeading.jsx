@@ -3,7 +3,7 @@ import React from 'react'
 const SubHeading = ({text, className}) => {
   return (
     <div>
-      <h2 className={`font-Paprika font-semibold text-lg text-thirdly leading-[30px] ${className}`}>{text}</h2>
+      <h2 className={`font-Paprika font-normal text-[24px] text-center text-[#E6E5F3] leading-10 ${className}`}>{text}</h2>
     </div>
   )
 }
