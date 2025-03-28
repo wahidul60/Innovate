@@ -14,13 +14,13 @@ export default {
         'primary':'#EFF4FA',
         'secondary':'#1BBF00',
         'thirdly':'#141135',
-        'forthly':'#160C6D',
+        'forthly':'#160c6d80',
       },      
       maxWidth:{
         'container' : '1170px',
       },
       backgroundImage: {
-        'backgroundImage': "url('/')",
+        'backgroundIm': "url('./public/Background.png')",
         
       }
     }   
