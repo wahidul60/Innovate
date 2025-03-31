@@ -20,11 +20,11 @@ export default {
         'container' : '1170px',
       },
       backgroundImage: {
-        'backgroundIm': "url('./public/Background.png')",
-        
-      }
-    }   
+        'backgroundIm': "url('./public/Background.png')",        
+      },      
+    }, 
   },
-  plugins: [],
+  
+ 
 }
 
