@@ -20,7 +20,9 @@ export default {
         'container' : '1170px',
       },
       backgroundImage: {
-        'backgroundIm': "url('./public/Background.png')",        
+        'backgroundIm': "url('./public/Background.png')",
+        'BgElement' : "url('./src/assets/bgElement.png')",     
+        'BgElement2' : "url('./src/assets/bgElement2.png')",     
       },      
     }, 
   },

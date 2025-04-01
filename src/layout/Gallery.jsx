@@ -5,9 +5,11 @@ import GalleryFunfact from '../components/GalleryFunfact'
 
 
 
+
 const Gallery = () => {
   return (
-    <section>
+    <section className='relative min-h-fit'>
+      <div className='absolute bg-BgElement bg-no-repeat bg-[right_-47px_top_0px] -z-30 w-full h-full'> </div> 
        <Container>
             <Flex className='justify-between'>
                 <div className='bg-[#C4C4C4] h-[350px] w-[270px] rounded-[20px] relative -top-[116px] -z-10'></div>
