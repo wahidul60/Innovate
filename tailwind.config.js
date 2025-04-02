@@ -23,7 +23,8 @@ export default {
       backgroundImage: {
         'backgroundIm': "url('./public/Background.png')",
         'BgElement' : "url('./src/assets/bgElement.png')",     
-        'BgElement2' : "url('./src/assets/bgElement2.png')",     
+        'BgElement2' : "url('./src/assets/bgElement2.png')",
+        'impactBackground' : "url('./src/assets/impactbg.png')"     
       },      
     }, 
   },
