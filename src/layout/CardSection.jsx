@@ -19,8 +19,8 @@ const CardSection = () => {
                   <p className='font-Sans tex-[18px] pb-14 leading-8 text-[#6C7D93]'>We are now a team of strategists, engineers, designers, and marketers who both use and develop technology </p>
                   <Button text='Contact Us'/>
               </div>
-              <Card image = {CardImage1} text='Web Design & Dev ' paragraph='Social Media has changed the way we interact & do business while creating'/>
-              <Card image = {CardImage2} text='Software Dev ' paragraph='Content Marketing is the other fold of online advertisement. If you are looking to build'/>
+              <Card image = {CardImage1} text='Web Design & Dev' paragraph='Social Media has changed the way we interact & do business while creating'/>
+              <Card image = {CardImage2} text='Software Dev' paragraph='Content Marketing is the other fold of online advertisement. If you are looking to build'/>
               <Card image = {CardImage3} text='Content Writing' paragraph='Content Marketing is the other fold of online advertisement. If you are looking to build'/>
               <Card image = {CardImage4} text='Digital Marketing' paragraph='Social Media has changed the way we interact & do business while creating a new avenue.'/>
               <Card image = {CardImage5} text='Support & Training' paragraph='Content Marketing is the other fold of online advertisement. If you are looking to build'/>
