@@ -9,8 +9,9 @@ import Button from '../components/Button'
 const WhyChoose = () => {
   return (
    <section>
+   <div className='absolute bg-BgElement2 bg-no-repeat bg-[left_-47px_top_0px] -z-30 w-full h-full'> </div>
         <Container>
-            <Flex className='pt-[100px] gap-[186px]'>
+            <Flex className='pt-[100px] gap-[186px] pb-[91px]'>
                 <div className='w-1/2'>
                     <WhyC1stDiv className='bg-[#fce5e5] py-[42px] pl-[28px] pr-[146px] w-[568px] h-[144px] mb-[32px]'  text='We solve real-world problems through people and the web.'/>
                     <WhyC1stDiv className='w-[366px] mb-[17px] pl-[28px] ' text='We make processes and technology work efficiently together..'/>

@@ -15,6 +15,7 @@ export default {
         'secondary':'#1BBF00',
         'thirdly':'#141135',
         'forthly':'#160c6d80',
+        'bgGallery':'#F9F9FB',
       },      
       maxWidth:{
         'container' : '1170px',

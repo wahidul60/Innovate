@@ -3,6 +3,9 @@ import Navbar from './layout/Navbar'
 import Banner from './layout/Banner'
 import Gallery from './layout/Gallery'
 import WhyChoose from './layout/WhyChoose'
+import CardSection from './layout/CardSection'
+
+
 
 
 const App = () => {
@@ -11,7 +14,8 @@ const App = () => {
       <Navbar/>
       <Banner/>
       <Gallery/>  
-      <WhyChoose/>    
+      <WhyChoose/>  
+      <CardSection/>
     </div>
   )
 }
