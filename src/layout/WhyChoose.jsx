@@ -1,9 +1,11 @@
 import React from 'react'
 import Flex from '../components/Flex'
 import Container from '../components/Container'
-import WhyC1stDiv from '../components/WhyC1stDiv'
+import ImageWithPara from '../components/ImageWithPara'
 import Heading from '../components/Heading'
 import Button from '../components/Button'
+import Point from '../assets/point.png'
+
 
 
 const WhyChoose = () => {
@@ -13,14 +15,15 @@ const WhyChoose = () => {
         <Container>
             <Flex className='pt-[100px] gap-[186px] pb-[91px]'>
                 <div className='w-1/2'>
-                    <WhyC1stDiv className='bg-[#fce5e5] py-[42px] pl-[28px] pr-[146px] w-[568px] h-[144px] mb-[32px]'  text='We solve real-world problems through people and the web.'/>
-                    <WhyC1stDiv className='w-[366px] mb-[17px] pl-[28px] ' text='We make processes and technology work efficiently together..'/>
-                    <WhyC1stDiv className='w-[366px] pl-[28px] ' text='We advance improve existing technology through research and development.'/>
-                    <WhyC1stDiv className='w-[331px]  pl-[28px] !border-r-transparent' text='We solve real-world problems through people and the web.'/>
+                    <ImageWithPara image={Point} containerClass='mb-[32px] w-[568px] bg-[#fce5e5] py-[42px] pl-[28px] pr-[146px]' textClass='w-[319px] font-Paprika font-normal text-[18px] text-[#726E9E] leading-[30px]' text='We solve real-world problems through people and the web.'/>
+                    <ImageWithPara image={Point} containerClass='pt-[32px] pb-[17px] w-[568px] pl-[28px] pr-[146px]' textClass='w-[366px] font-Paprika font-normal text-[18px] text-[#726E9E] leading-[30px]' text='We make processes and technology work efficiently together.'/>
+                    <ImageWithPara image={Point} containerClass='w-[568px] pl-[28px] pr-[146px]' textClass='w-[366px] font-Paprika font-normal text-[18px] text-[#726E9E] leading-[30px]' text='We advance improve existing technology through research and development.'/>
+                    <ImageWithPara image={Point} containerClass='w-[568px] pl-[28px] pr-[146px]' textClass='w-[331px] font-Paprika font-normal text-[18px] text-[#726E9E] leading-[30px]' text='We develop long-lasting and scalable solutions, relationships partnerships.'/>
+                  
                 </div>
                 <div className='w-1/2'>
                     <Heading className='pb-[9px] font-Sans font-bold' text='Why Choose Us '/>
-                    <p className='font-Paprika font-normal text-[18px] leading-[30px] mb-[41px]'>We are now a team of strategists, engineers, designers, and marketers who both use and develop technology for a variety of client needs.</p>
+                    <p className='font-Paprika font-normal text-[#726E9E] text-[18px] leading-[30px] mb-[41px]'>We are now a team of strategists, engineers, designers, and marketers who both use and develop technology for a variety of client needs.</p>
                     <Button text='Contact Us'/>
                 </div>
             </Flex>

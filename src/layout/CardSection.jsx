@@ -8,6 +8,7 @@ import CardImage2 from '../assets/CardImage2.png'
 import CardImage3 from '../assets/CardImage3.png'
 import CardImage4 from '../assets/CardImage4.png'
 import CardImage5 from '../assets/CardImage5.png'
+import Heading from '../components/Heading'
 
 const CardSection = () => {
   return (
@@ -15,7 +16,7 @@ const CardSection = () => {
         <Container>
             <Flex className='flex-wrap gap-[30px]'>
               <div className='w-[370px] h-[395px]'>
-                  <h4 className='font-Sans text-[48px] font-bold pb-5'>What We Do</h4>
+                  <Heading text='What We Do' className='pb-5'/>               
                   <p className='font-Sans tex-[18px] pb-14 leading-8 text-[#6C7D93]'>We are now a team of strategists, engineers, designers, and marketers who both use and develop technology </p>
                   <Button text='Contact Us'/>
               </div>
