@@ -6,9 +6,7 @@ import WhyChoose from './layout/WhyChoose'
 import CardSection from './layout/CardSection'
 import Impact from './layout/Impact'
 import PlanSection from './layout/PlanSection'
-
-
-
+import Slider from './layout/Slider'
 
 const App = () => {
   return (
@@ -20,6 +18,7 @@ const App = () => {
       <CardSection/>
       <Impact/>
       <PlanSection/>
+      <Slider/>
     </div>
   )
 }
