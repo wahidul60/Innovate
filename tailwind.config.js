@@ -10,6 +10,7 @@ export default {
         'Sans':['Open Sans'],
         'Paprika':["Paprika"],
         'Nunito':["Nunito"],
+        'Quicksand' : ["Quicksand"],
       },
       colors:{
         'primary':'#EFF4FA',
