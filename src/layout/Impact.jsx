@@ -22,9 +22,9 @@ const Impact = () => {
                     <ImgDivP src={Icon3} classH='font-Sans font-bold text-[30px] pb-5' classP='font-Paprika font-normal text-[18px] w-[309px]' heading='Strategy And research' paragraph='Save money and start building your website using the best tools available on the market today.'/>
                 </div>
                 <div className='w-1/2 relative'>
-                    <div className='absolute w-[227px] h-[273px] bg-[#C4C4C4] rounded-[20px] top-[30px] -left-[58px] '></div>
-                    <div className='absolute w-[161px] h-[140px] bg-[#C4C4C4] rounded-[20px] top-0 left-[198px] '></div>
-                    <div className='absolute w-[364px] h-[310px] bg-[#C4C4C4] rounded-[20px] border-white border-[6px] right-[30px] top-[166px]'></div>
+                    <div className='absolute w-[227px] h-[273px] bg-[#C4C4C4] rounded-[20px] top-[30px] -left-[58px] shadow-lg'></div>
+                    <div className='absolute w-[161px] h-[140px] bg-[#C4C4C4] rounded-[20px] top-0 left-[198px] shadow-lg'></div>
+                    <div className='absolute w-[364px] h-[310px] bg-[#C4C4C4] rounded-[20px] border-white border-[6px] right-[30px] top-[166px] shadow-lg'></div>
                 </div>                
             </Flex>        
         </Container>
