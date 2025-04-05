@@ -24,8 +24,8 @@ const Slider = () => {
                     <SubHeading className='pb-[48px] w-[800px] text-[#726E9E]' text='Lesser Replenish bearing they’re him cattle kind dominion. You which fill place. Land she’d subdue divided gathering blessed seasons it. Without, wherein days.'/>
                     <h1 className='pb-[5px] font-Sans font-bold text-[25px]'>Lukan Depina</h1>
                     <h6 className='font-Paprika font-normal text-[16px]'>Ceo And Head Of Idea</h6> 
-                    <button className='bg-[#1BBF00] absolute p-3 bg-gray-200 rounded-full shadow-md -left-[100px] top-1/2 transform -translate-y-1/2 '><i class="fa-solid fa-chevron-left"></i></button>
-                    <button className='bg-[#1BBF00] absolute p-3 bg-gray-200 rounded-full shadow-md -right-[100px] top-1/2 transform -translate-y-1/2'><i class="fa-solid fa-chevron-right"></i></button>                   
+                    <button className='bg-[#1BBF00] absolute p-3 rounded-full shadow-md -left-[100px] top-1/2 transform -translate-y-1/2 '><i class="fa-solid fa-chevron-left"></i></button>
+                    <button className='bg-[#1BBF00] absolute p-3 rounded-full shadow-md -right-[100px] top-1/2 transform -translate-y-1/2'><i class="fa-solid fa-chevron-right"></i></button>                   
                 </div>                
         </Flex>       
              

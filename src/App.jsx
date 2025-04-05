@@ -7,7 +7,9 @@ import CardSection from './layout/CardSection'
 import Impact from './layout/Impact'
 import PlanSection from './layout/PlanSection'
 import Slider from './layout/Slider'
-import SuggestionCard from './components/SuggestionCard'
+import Suggestion from './layout/Suggestion'
+import Footer from './layout/Footer'
+
 
 const App = () => {
   return (
@@ -20,7 +22,8 @@ const App = () => {
       <Impact/>
       <PlanSection/>
       <Slider/>
-      <SuggestionCard/>
+      <Suggestion/>
+      <Footer/>
     </div>
   )
 }
