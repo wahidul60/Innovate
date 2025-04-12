@@ -5,6 +5,7 @@ import ImageCom from '../components/ImageCom'
 import Logo from '../assets/Logo Main.png'
 import List from '../components/List'
 import Button from '../components/Button'
+import { Link } from 'react-router-dom'
 
 const Navbar = ({className}) => {
   return (
@@ -16,9 +17,10 @@ const Navbar = ({className}) => {
         </div>
         <div className='w-8/12 py-5'>
           <Flex className='gap-x-10 items-center'>
-          <List text='Home'/> 
-          <List text='About'/> 
-          <List text='Service'/> 
+          <Link to='/ '><List text='Home'/> </Link>  
+          <Link to='/about' ><List text='About'/> </Link>
+          <Link to='/services' ><List text='Service'/> </Link>
+          
           <List text='Portfolio'/> 
           <List text='Price'/>
           <List text='Blog'/> 

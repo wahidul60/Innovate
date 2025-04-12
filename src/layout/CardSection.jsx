@@ -10,9 +10,9 @@ import CardImage4 from '../assets/CardImage4.png'
 import CardImage5 from '../assets/CardImage5.png'
 import Heading from '../components/Heading'
 
-const CardSection = () => {
+const CardSection = ({className}) => {
   return (
-    <section className='bg-[#F6F5FF] py-[100px]'>
+    <section className={`bg-[#F6F5FF] py-[100px] ${className} `}>
         <Container>
             <Flex className='flex-wrap gap-[30px]'>
               <div className='w-[370px] h-[395px]'>
