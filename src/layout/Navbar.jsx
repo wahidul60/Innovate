@@ -17,7 +17,7 @@ const Navbar = ({className}) => {
         </div>
         <div className='w-8/12 py-5'>
           <Flex className='gap-x-10 items-center'>
-          <Link to='/ '><List text='Home'/> </Link>  
+          <Link to='/'><List text='Home'/> </Link>  
           <Link to='/about' ><List text='About'/> </Link>
           <Link to='/services' ><List text='Service'/> </Link>
           
