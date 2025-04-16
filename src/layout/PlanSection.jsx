@@ -3,8 +3,8 @@ import Heading from '../components/Heading'
 import Flex from '../components/Flex'
 import PlanCard from '../components/PlanCard'
 import PlanCard1 from '../assets/plancard1.png'
-import PlanCard2 from '../assets/PlanCard2.png'
-import PlanCard3 from '../assets/planCard3.png'
+import PlanCard2 from '../assets/plancard2.png'
+import PlanCard3 from '../assets/plancard3.png'
 import Container from '../components/Container'
 
 
